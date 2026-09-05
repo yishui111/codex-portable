@@ -10,11 +10,11 @@
 | Codex CLI | 终端里的 AI 编程助手，对话改代码 | 命令行使用 |
 | codex-bridge | 协议转换代理（Responses → Chat Completions），让 Codex 接 DeepSeek | http://localhost:4000 |
 | Ollama | 本地大模型平台（默认 qwen2.5:7b），离线可用、数据不外传 | http://localhost:11434 |
-| Open WebUI | 浏览器聊天界面，支持多模型对话 | http://localhost:3001 |
+| Open WebUI | 浏览器聊天界面，支持多模型对话 | http://localhost:3002 |
 
 两种用法：
 - **终端编程**：`codex --profile deepseek`（线上）或 `codex --profile ollama`（本地）
-- **网页聊天**：浏览器打开 http://localhost:3001，左上角选模型
+- **网页聊天**：浏览器打开 http://localhost:3002，左上角选模型
 
 ## 二、安装位置
 
@@ -31,7 +31,7 @@
 1. 双击 `import.bat` — 检查环境、导入 Docker 镜像、设置 CODEX_HOME 环境变量
 2. 双击 `setup.bat` — 安装 Codex CLI
 3. 双击 `启动.bat` — 一键启动全部服务
-4. 打开 http://localhost:3001 或运行 `codex.bat` 开始用
+4. 打开 http://localhost:3002 或运行 `codex.bat` 开始用
 
 日常使用：
 
@@ -94,7 +94,7 @@ codex-portable/
 | `codex` 命令找不到 | 运行 `setup.bat` 安装，或重新打开终端 |
 | 提示 Docker 未运行 | 先启动 Docker Desktop，等 "Engine running" |
 | Ollama 起不来 | 检查 GPU 驱动 / Docker 是否真的在运行 |
-| 端口 3001/4000/11434 被占用 | 关掉占用程序，或 `关闭.bat` 后重试 |
+| 端口 3002/4000/11434 被占用 | 关掉占用程序，或 `关闭.bat` 后重试 |
 | 聊天界面连不上 DeepSeek | 管理设置 → 外部连接，API 地址 `http://host.docker.internal:4000/v1`，密钥 `sk-proxy-local-codex-portable-key-2026` |
 | 复制到别的电脑启动报错 | 按 `部署方案.md` 从头走一遍 import → setup → 启动 |
 

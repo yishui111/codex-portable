@@ -159,7 +159,7 @@ if ($Mode -eq "all" -or $Mode -eq "webui") {
         Write-Host "[ERROR] Open WebUI failed to start" -ForegroundColor Red
         exit 1
     }
-    Write-Host "[OK] Open WebUI started (port 3001)" -ForegroundColor Green
+    Write-Host "[OK] Open WebUI started (port 3002)" -ForegroundColor Green
 }
 
 # ── Done ──
@@ -168,7 +168,7 @@ Write-Host "  =================================================" -ForegroundColo
 Write-Host "   Startup Complete!" -ForegroundColor Green
 Write-Host "  =================================================" -ForegroundColor Green
 Write-Host ""
-Write-Host "  Open WebUI:     http://localhost:3001"
+Write-Host "  Open WebUI:     http://localhost:3002"
 Write-Host "  Bridge Proxy:   http://localhost:4000"
 Write-Host "  Ollama API:     http://localhost:11434"
 Write-Host ""

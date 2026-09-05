@@ -31,7 +31,7 @@ start.bat
 
 | 服务 | 地址 |
 |------|------|
-| 聊天界面（Open WebUI） | http://localhost:3001 |
+| 聊天界面（Open WebUI） | http://localhost:3002 |
 | 协议代理（codex-bridge） | http://localhost:4000 |
 | 本地模型（Ollama） | http://localhost:11434 |
 
@@ -68,7 +68,7 @@ cd E:\codex-portable
 ```
 start.bat deepseek   :: 只启动在线 API 代理 (bridge, 端口4000)
 start.bat ollama     :: 只启动本地模型 (Ollama, 端口11434)
-start.bat webui      :: 只启动聊天界面 (端口3001)
+start.bat webui      :: 只启动聊天界面 (端口3002)
 ```
 
 > 注：如果只想用 Codex 命令行聊天，其实只需要 `bridge`（在线）或 `Ollama`（本地），不一定要开聊天界面。
@@ -79,7 +79,7 @@ start.bat webui      :: 只启动聊天界面 (端口3001)
 
 如果你不想要命令行，也可以用网页聊：
 
-1. 打开 http://localhost:3001
+1. 打开 http://localhost:3002
 2. 左上角选模型（左侧模型列表）
 3. 用 DeepSeek 在线：先到「管理设置 → 外部连接」添加
    - API 地址: `http://host.docker.internal:4000/v1`

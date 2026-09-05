@@ -15,7 +15,7 @@ Write-Host "  Ollama (端口 11434):      $ollamaStatus"
 # ── Open WebUI ──
 $webuiRunning = docker ps --format "{{.Names}}" 2>$null | Select-String "open-webui"
 $webuiStatus = if ($webuiRunning) { "运行中" } else { "未运行" }
-Write-Host "  Open WebUI (端口 3001):   $webuiStatus"
+Write-Host "  Open WebUI (端口 3002):   $webuiStatus"
 
 # ── codex-bridge ──
 $port4000 = Get-NetTCPConnection -LocalPort 4000 -ErrorAction SilentlyContinue

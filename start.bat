@@ -30,7 +30,7 @@ if /i "%MODE%"=="help" (
     echo ║    start.bat webui     仅启动 Open WebUI ^(聊天界面^)  ║
     echo ╠══════════════════════════════════════════════════════╣
     echo ║  服务地址:                                            ║
-    echo ║    聊天界面  → http://localhost:3001                  ║
+    echo ║    聊天界面  → http://localhost:3002                  ║
     echo ║    代理服务  → http://localhost:4000                  ║
     echo ║    本地模型  → http://localhost:11434                 ║
     echo ╠══════════════════════════════════════════════════════╣
@@ -163,7 +163,7 @@ if %errorlevel% neq 0 (
     echo [错误] Open WebUI 启动失败
     exit /b 1
 )
-echo [OK] Open WebUI 已启动 (端口 3001)
+echo [OK] Open WebUI 已启动 (端口 3002)
 
 :: ============================================================
 ::  完成
@@ -173,7 +173,7 @@ echo.
 echo ╔══════════════════════════════════════════════════════╗
 echo ║            启动成功!                                  ║
 echo ╠══════════════════════════════════════════════════════╣
-echo ║  🤖 Open WebUI:    http://localhost:3001              ║
+echo ║  🤖 Open WebUI:    http://localhost:3002              ║
 echo ║  🔌 Bridge 代理:   http://localhost:4000              ║
 echo ║  🐪 Ollama 本地:   http://localhost:11434             ║
 echo ╠══════════════════════════════════════════════════════╣

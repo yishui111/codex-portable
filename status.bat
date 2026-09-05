@@ -26,7 +26,7 @@ docker ps --format "{{.Names}}" 2>nul | findstr "open-webui" >nul
 if %errorlevel% equ 0 (
     set WEBUI_STATUS=运行中
 )
-echo ║  Open WebUI ^(端口 3001^): !WEBUI_STATUS!
+echo ║  Open WebUI ^(端口 3002^): !WEBUI_STATUS!
 
 :: ── codex-bridge 状态 ────────────────────────────────────
 set BRIDGE_STATUS=未运行

@@ -64,7 +64,7 @@ start.bat
 ```
 
 启动后可访问：
-- 聊天界面：http://localhost:3001
+- 聊天界面：http://localhost:3002
 - 代理服务：http://localhost:4000
 - 本地模型：http://localhost:11434
 
@@ -88,4 +88,4 @@ start.bat
 - **提示 codex 不是内部或外部命令？** 说明 Codex CLI 未安装或环境变量未刷新，运行 `setup.bat` 后**关闭并重新打开终端**。
 - **镜像导入失败？** 确保 Docker Desktop 已启动，再重新运行 `import.bat`。
 - **开了 Docker 但 Ollama 起不来？** 检查 Docker Desktop 是否真的处于运行状态（`docker info` 能返回正常信息）。
-- **端口被占用？** 确认没有其他程序占用 3001 / 4000 / 11434 端口。
+- **端口被占用？** 确认没有其他程序占用 3002 / 4000 / 11434 端口。

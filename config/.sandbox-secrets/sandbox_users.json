@@ -1,0 +1,11 @@
+{
+  "version": 5,
+  "offline": {
+    "username": "CodexSandboxOffline",
+    "password": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aBmkkPsEUm3K4w8aCaMggQAAAACAAAAAAAQZgAAAAEAACAAAAArLcTrZVSypMdPXmtTlBU6GaTZjIu9ftTrkGQEGNg/7QAAAAAOgAAAAAIAACAAAADwqyG7fpeaAc3p9d14pIfaPaFLrXiW/ir7O2qpm/kijyAAAAA5N9sZLcA8tHkGy5SRQ9hinzJv1/levhY1f7stkomOLUAAAAAWkuCogtQDPBMUU7u2JoYvg8IY2UTmqCMV338OchbBnIMhyGkyTcwzFHYJWcvBrTVZDRn/QJUmI3dg+NELasBW"
+  },
+  "online": {
+    "username": "CodexSandboxOnline",
+    "password": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6aBmkkPsEUm3K4w8aCaMggQAAAACAAAAAAAQZgAAAAEAACAAAAA09wtY6u3ITJTwweUrspMXwv7wpIUmj25ZPWnJyEbRlwAAAAAOgAAAAAIAACAAAADmgpP6CAJ1jZPeYz/O7KXGcCv+lDK0dNpB08dc57hp7SAAAAA9GxvLqGJHvcZu2Wbcnw0CAJrqlvIUWjyM1/v29hGGD0AAAAD076L5Dg8ni2p42C1lWxMrMk5ucSu5mOoxLG+4zUtCrUI+89iHIyYZpR0x9hnxb7WBYEenOqr/+hlgKOnRySiz"
+  }
+}

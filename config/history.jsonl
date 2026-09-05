@@ -1,0 +1,41 @@
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473269,"text":"帮我看看这个目录里都有什么文件"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473390,"text":"你在这个目录下新建一个说明文档把启动你的命令写进去"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473478,"text":"你有关于你自己的优化吗，你自己扫描下这几个文件"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473683,"text":"DeepSeek API Key 泄露问题 是什么问题怎么修复"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473857,"text":"sk-1b0089d6fb2c4f4ca1c85968288d00f8   这是新的秘钥"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473933,"text":"你都能干啥"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785473961,"text":"可以看图片"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785474235,"text":"\"D:\\shengyinkelongshuzirendamoxing\"  这个文件的本地git提交不上给看一下"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785474263,"text":"■ {\"error\":{\"message\":\"Failed to deserialize the JSON body into the target type: messages[51]: unknown\nvariant `input_image`, expected `text` at line 1 column\n87741\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}} 这是什么意思"}
+{"session_id":"019fb67e-6131-7883-9636-840a7a6e03ac","ts":1785474340,"text":"你好"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785474876,"text":"你好"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785474902,"text":"你擅长改代码对吧"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785475024,"text":"那你把自己所在的文件夹里的代码还有环境都放到一个文件夹里，再压缩下我把他发到我另一个电脑上，另一个电脑解压后就可以用，你给我弄一下并给我复制的成功方案"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785475268,"text":"完整的吧因为我的这个电脑是科学上网的里面的有些东西我另一个电脑是装不上的"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785475420,"text":"我是远程连接家里 的电脑，10g确实大，你直接压缩个文件就行我回去了直接拷贝到我的新电脑上解压就可以了"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785475587,"text":"A方案"}
+{"session_id":"019fb698-7231-7772-b933-068b686d8adb","ts":1785480054,"text":"那就把当前的项目的代码还有依赖都复制到\"D:\\shengyinkelongshuzirendamoxing\"下吧这个目录下有docker还有别的项目的你移动完在新的地方再启动下我看一下"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490239,"text":"你好"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490279,"text":"我下次怎么启动你，你再你都目录下写个文档我下次直接按照步骤启动"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490352,"text":"D:\\codex-portable  这个项目移除吧，因为我们有新的了"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490376,"text":"是的"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490443,"text":"D:\\shengyinkelongshuzirendamoxing 这个的本地git提交不成功你解决下"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490880,"text":"你和workbuddy原理一样吗你两那个优秀点"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785490978,"text":"怎么不回答了"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785491229,"text":"写下吧我看一下"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785491407,"text":"改吧"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785491786,"text":"改好了吗"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785491913,"text":"我发现你特别费token，我本地有千问模型，我们能不能优化下，我给你的需求你先千问大概整理下搞不定在用deepseek呢，有这个方案吗"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785492180,"text":"那个更合理"}
+{"session_id":"019fb782-d689-7131-bb65-573e4175fddb","ts":1785492397,"text":"要是主要写代码改代码的话你觉得有没有这样做，你知道的改代码对千问小模型来说有点困难，而且真正费token的是来回改，有时候改不对会费的更多"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493136,"text":"你好"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493187,"text":"我想问一下D:\\shengyinkelongshuzirendamoxing\\codex-portable 这个文件直接复制到别的电脑上还能启动吗"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493402,"text":"要"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493597,"text":"你把迁移写个文档吧"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493934,"text":"你能不能不让我点确定了，我一直点确定很我干有什么区别"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785493996,"text":"对，你直接确定就完事了以后也别让我确定了，写个简单的让我一直确定啥呢"}
+{"session_id":"019fb7ad-c79c-7980-a851-57f60d926202","ts":1785494093,"text":"涉及别的也别让我点了，我让你干活，你干完了我直接看就行，你别一直在那绕弯子就行"}
+{"session_id":"019fbb0e-c9d5-7683-aa11-7c635ec42b4a","ts":1785549750,"text":"exit"}
+{"session_id":"019fbb32-fe6c-7b41-a6a8-f66da59319c6","ts":1785552170,"text":"(base) PS D:\\shengyinkelongshuzirendamoxing> .\\start.ps1 rag-chat\n[First Run] Loading Open WebUI image (1754MB), ~2-5 min...\n[Done] Open WebUI image loaded\n\n[Start] RAG Chat + Knowledge Base...\n[+] up 2/4\n ✔ Network... Created                                                                                               0.0s\n - Contain... Creating                                                                                              0.0s\n ✘ service... Error response from daemon: Conflict. The container name \"/ollama\" is already in use by container \"a97ccb51a086b38dfe2191e76334e5c3cb2852c8af1e8e882d62ecc652642d41\". You have to remove (or rename) that container to be able to reuse that name. 0.0s\n - Contain... Creating                                                                                              0.0s\nError response from daemon: Conflict. The container name \"/ollama\" is already in use by container \"a97ccb51a086b38dfe2191e76334e5c3cb2852c8af1e8e882d62ecc652642d41\". You have to remove (or rename) that container to be able to reuse that name.  这个启动不了"}
+{"session_id":"019fbb32-fe6c-7b41-a6a8-f66da59319c6","ts":1785552332,"text":"怎么了"}
+{"session_id":"019fbb32-fe6c-7b41-a6a8-f66da59319c6","ts":1785553334,"text":"D:\\shengyinkelongshuzirendamoxing  这个项目下  仅启动 RAG 知识库  启动不了了给你启动下"}

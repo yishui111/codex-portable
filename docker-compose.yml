@@ -1,0 +1,71 @@
+# ============================================================
+#  Codex 便携项目 — Docker Compose
+# ============================================================
+#  Ollama 本地模型服务
+#  启动: docker compose up -d
+#  停止: docker compose down
+# ============================================================
+
+services:
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      # 模型存储 — 复制到其他电脑时模型随数据一起带走
+      - ./projects/ollama/data:/root/.ollama
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - OLLAMA_KEEP_ALIVE=24h
+      - OLLAMA_HOST=0.0.0.0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    restart: "no"
+    networks:
+      - codex-net
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+  # ── Open WebUI 聊天界面 ──
+  # 访问: http://localhost:3001
+  # 管理面板可添加 OpenAI 兼容 API（codex-bridge → DeepSeek）
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3001:8080"
+    volumes:
+      - ./projects/open-webui/data:/app/backend/data
+    environment:
+      # 禁用认证（内网使用）
+      - WEBUI_AUTH=False
+      # 连接本地 Ollama（聊天模型 + 嵌入模型）
+      - OLLAMA_BASE_URL=http://ollama:11434
+      # 使用 Ollama bge-m3 做嵌入，避免启动时下载 HuggingFace 模型
+      - RAG_EMBEDDING_ENGINE=ollama
+      - RAG_EMBEDDING_MODEL=bge-m3:latest
+    restart: "no"
+    networks:
+      - codex-net
+    depends_on:
+      - ollama
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "3"
+
+networks:
+  codex-net:
+    driver: bridge
+    name: codex-net

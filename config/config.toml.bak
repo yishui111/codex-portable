@@ -1,0 +1,26 @@
+# ============================================================
+#  Codex CLI 主配置文件
+#  位置: E:\codex-portable\config\config.toml
+# ============================================================
+
+# ── 默认使用 DeepSeek ──
+model = "deepseek-chat"
+model_provider = "deepseek_proxy"
+
+# ── 模型供应商定义（所有 profile 共享）──
+
+# DeepSeek 线上 API（通过 codex-bridge 代理）
+[model_providers.deepseek_proxy]
+name = "DeepSeek (Online API)"
+base_url = "http://127.0.0.1:4000/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"
+requires_openai_auth = true
+
+# Ollama 本地模型（直连）
+[model_providers.ollama_local]
+name = "Ollama Local"
+base_url = "http://127.0.0.1:11434/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"
+requires_openai_auth = false

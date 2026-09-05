@@ -1,0 +1,1 @@
+prefix_rule(pattern=["C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-Command", "Get-ChildItem -Force | Select-Object Mode, Length, Name | Out-String -Width 200"], decision="allow")

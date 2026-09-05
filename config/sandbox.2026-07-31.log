@@ -1,0 +1,14 @@
+[2026-07-31 12:47:11.552 codex.exe] AUDIT: world-writable scan FAILED; cwd="D:\\codex-portable"; checked=317; duration_ms=62; flagged:
+ - \\?\C:\DTLFolder
+[2026-07-31 12:47:11.570 codex.exe] AUDIT: applied capability deny ACE to \\?\C:\DTLFolder
+[2026-07-31 12:47:11.615 codex.exe] AUDIT: world-writable scan FAILED; cwd="D:\\codex-portable"; checked=317; duration_ms=19; flagged:
+ - \\?\C:\DTLFolder
+[2026-07-31 12:47:11.626 codex.exe] AUDIT: applied capability deny ACE to \\?\C:\DTLFolder
+[2026-07-31 12:47:11.628 codex.exe] AUDIT: applied capability deny ACE to \\?\C:\DTLFolder
+[2026-07-31 13:14:31.919 codex.exe] AUDIT: world-writable scan FAILED; cwd="D:\\codex-portable"; checked=317; duration_ms=61; flagged:
+ - \\?\C:\DTLFolder
+[2026-07-31 17:30:33.026 codex.exe] AUDIT: world-writable scan FAILED; cwd="D:\\shengyinkelongshuzirendamoxing\\codex-portable"; checked=320; duration_ms=57; flagged:
+ - \\?\C:\DTLFolder
+[2026-07-31 17:30:33.040 codex.exe] AUDIT: applied capability deny ACE to \\?\C:\DTLFolder
+[2026-07-31 18:17:27.213 codex.exe] AUDIT: world-writable scan FAILED; cwd="D:\\shengyinkelongshuzirendamoxing\\codex-portable"; checked=320; duration_ms=18; flagged:
+ - \\?\C:\DTLFolder

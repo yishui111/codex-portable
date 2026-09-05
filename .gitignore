@@ -1,0 +1,18 @@
+# Docker 镜像与解包产物
+*.tar
+/_extract/
+# 模型数据
+/projects/ollama/
+# 个人资料
+/ziliao/
+# 依赖与构建
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+# 系统文件
+Thumbs.db
+.DS_Store
+config/sessions/
+config/logs_*.sqlite
